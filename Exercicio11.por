@@ -1,6 +1,6 @@
 /*
-11)	Ler 10 valores e escrever quantos desses valores lidos estão entre 10 e 20 
-(incluindo os valores 10 e 20 no intervalo) e quantos deles estão fora deste intervalo.
+11)	Ler 10 valores e escrever quantos desses valores lidos estÃ£o entre 10 e 20 
+(incluindo os valores 10 e 20 no intervalo) e quantos deles estÃ£o fora deste intervalo.
 
 */
 
@@ -8,25 +8,37 @@ programa {
   funcao inicio() {
 
     inteiro inicio = 10, final = 20
-    inteiro num, pos, cont, ncont
+    inteiro num, pos, cont = 0, ncont = 0
 
-    escreva("\nExercício 11")
+    escreva("\nExercÃ­cio 11")
     escreva("\n")
-    escreva("\nCONTAGEM DE NÚMEROS")
+    escreva("\nCONTAGEM DE NÃšMEROS")
     escreva("\n========================")
 
     para(pos = 1; pos <= 10; pos ++){
 
-      escreva("\nEscreva um número: ")
+      escreva("\nEscreva um nÃºmero: ")
       leia(num)
 
       se((num >= 10) e (num <= 20)){
-        cont += 1
+        	cont += 1
       }senao{
         ncont += 1
       }
     }
-  escreva("\nContém ", cont, " números")
-  escreva("\nNão contém ", cont, " números")
+  escreva("\nContÃ©m ", cont, " nÃºmeros")
+  escreva("\nNÃ£o contÃ©m ", cont, " nÃºmeros")
   }
 }
+
+/* $$$ Portugol Studio $$$ 
+ * 
+ * Esta seÃ§Ã£o do arquivo guarda informaÃ§Ãµes do Portugol Studio.
+ * VocÃª pode apagÃ¡-la se estiver utilizando outro editor.
+ * 
+ * @POSICAO-CURSOR = 285; 
+ * @PONTOS-DE-PARADA = ;
+ * @SIMBOLOS-INSPECIONADOS = ;
+ * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
+ * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
+ */
