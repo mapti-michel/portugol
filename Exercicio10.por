@@ -15,7 +15,7 @@ programa
 	funcao inicio()
 	{
 		inteiro quant = 3, numHomens = 0, pos
-		real altura[5], mediaAltura = 0, maior, menor, alturaMulheres = 0
+		real altura[5], mediaAltura = 0.0, maior, menor, alturaMulheres = 0.0
 		cadeia sexo[5]
 	
 		escreva("\nExercício 10")
@@ -78,7 +78,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 886; 
+ * @POSICAO-CURSOR = 427; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
